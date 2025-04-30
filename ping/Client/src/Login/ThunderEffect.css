@@ -1,0 +1,47 @@
+@keyframes thunder-flash {
+    0% {
+      opacity: 0;
+      filter: drop-shadow(0 0 5px #0047AB);
+    }
+    10% {
+      opacity: 1;
+      filter: drop-shadow(0 0 30px #0047AB) brightness(3);
+    }
+    20% {
+      opacity: 0.8;
+      filter: drop-shadow(0 0 50px #0047AB) brightness(4);
+    }
+    30% {
+      opacity: 0.6;
+      filter: drop-shadow(0 0 40px #0047AB) brightness(3.5);
+    }
+    40% {
+      opacity: 0.4;
+      filter: drop-shadow(0 0 30px #0047AB) brightness(3);
+    }
+    50% {
+      opacity: 0.2;
+      filter: drop-shadow(0 0 20px #0047AB) brightness(2);
+    }
+    60% {
+      opacity: 0.1;
+      filter: drop-shadow(0 0 10px #0047AB) brightness(1.5);
+    }
+    70% {
+      opacity: 0.05;
+      filter: drop-shadow(0 0 5px #0047AB);
+    }
+    80% {
+      opacity: 0;
+      filter: drop-shadow(0 0 2px #0047AB);
+    }
+    100% {
+      opacity: 0;
+      filter: drop-shadow(0 0 0px #1778ff);
+    }
+  }
+  
+  .animate-thunder-flash {
+    animation: thunder-flash 1s infinite ease-in-out;
+  }
+  
